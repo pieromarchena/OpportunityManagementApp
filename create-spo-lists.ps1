@@ -19,9 +19,7 @@
 Update-Module SharePointPnPPowerShell*
 
 #Specify Site URL
-#$siteUrl = "https://demo.sharepoint.com/sites/oppmanagementsite/"
-
-$siteUrl = "https://m365x298804.sharepoint.com/sites/GestiondeSolicitudes"
+$siteUrl = "https://demo.sharepoint.com/sites/oppmanagementsite/"
 
 #Connect to SPO Site
 Connect-PnPOnline –Url $siteUrl –Credentials (Get-Credential)
